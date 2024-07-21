@@ -78,7 +78,7 @@ export default function Home() {
             </g>
           </svg>
           <div className="flex flex-col">
-            checksum
+            niko
             <span className="text-xs opacity-50">
               [Chief Technology Officer]
             </span>
