@@ -8,5 +8,9 @@ body {
   width: 100%;
   background: black;
   color: white;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+a:hover {
+  filter: brightness(1.5);
 }
