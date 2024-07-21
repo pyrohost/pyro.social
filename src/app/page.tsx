@@ -8,7 +8,6 @@ export default function Home() {
         className="absolute select-none pointer-events-none bg-cover w-full h-full object-contain"
         src="/build.png"
         alt="Hero"
-        layout="fill"
       />
       <div className="mt-auto relative flex flex-col items-center gap-4 z-10 px-4">
         <Image
