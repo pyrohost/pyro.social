@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative w-full h-auto min-h-screen flex flex-col items-center justify-center py-8">
+    <main className="relative w-full h-auto min-h-screen flex flex-col items-center py-8">
       <div className="border-x-[1px] border-dashed border-[#3b3b3b] mx-auto pointer-events-none select-none absolute inset-0 max-w-[1240px]"></div>
       <Image
         className="absolute select-none pointer-events-none bg-cover w-full h-full object-contain"
@@ -26,7 +26,7 @@ export default function Home() {
           href="https://x.com/ChecksumVT"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -36,13 +36,18 @@ export default function Home() {
               ></path>
             </g>
           </svg>
-          checksum [CEO]
+          <div className="flex flex-col">
+            checksum
+            <span className="text-xs opacity-50">
+              [Chief Executive Officer]
+            </span>
+          </div>
         </a>
         <a
           href="https://x.com/ferothefox"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -52,13 +57,18 @@ export default function Home() {
               ></path>
             </g>
           </svg>
-          fero [COO]
+          <div className="flex flex-col">
+            fero
+            <span className="text-xs opacity-50">
+              [Chief Operating Officer]
+            </span>
+          </div>
         </a>
         <a
           href="https://x.com/sargon_64_"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -68,7 +78,12 @@ export default function Home() {
               ></path>
             </g>
           </svg>
-          niko [CTO]
+          <div className="flex flex-col">
+            checksum
+            <span className="text-xs opacity-50">
+              [Chief Technology Officer]
+            </span>
+          </div>
         </a>
 
         <h2 className="mt-6">
@@ -78,7 +93,7 @@ export default function Home() {
           href="https://x.com/coolnickname978"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -88,13 +103,16 @@ export default function Home() {
               ></path>
             </g>
           </svg>
-          fetch [Systems Engineer]
+          <div className="flex flex-col">
+            fetch
+            <span className="text-xs opacity-50">[Systems Engineer]</span>
+          </div>
         </a>
         <a
           href="https://x.com/pupbrained"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -104,13 +122,16 @@ export default function Home() {
               ></path>
             </g>
           </svg>
-          Mars [Systems Engineer]
+          <div className="flex flex-col">
+            Mars
+            <span className="text-xs opacity-50">[Systems Engineer]</span>
+          </div>
         </a>
         <a
           href="https://x.com/thewander02"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -120,13 +141,16 @@ export default function Home() {
               ></path>
             </g>
           </svg>
-          Wander [Frontend Engineer]
+          <div className="flex flex-col">
+            Wander
+            <span className="text-xs opacity-50">[Frontend Engineer]</span>
+          </div>
         </a>
         <a
           href="https://x.com/YoruVR"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -136,13 +160,16 @@ export default function Home() {
               ></path>
             </g>
           </svg>
-          Yoru [Frontend Engineer]
+          <div className="flex flex-col">
+            Yoru
+            <span className="text-xs opacity-50">[Frontend Engineer]</span>
+          </div>
         </a>
         <a
           href="https://x.com/prplwtf"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -152,7 +179,10 @@ export default function Home() {
               ></path>
             </g>
           </svg>
-          Ivy [Frontend Engineer]
+          <div className="flex flex-col">
+            Ivy
+            <span className="text-xs opacity-50">[Frontend Engineer]</span>
+          </div>
         </a>
 
         <h2 className="mt-6">
@@ -162,7 +192,7 @@ export default function Home() {
           href="https://x.com/IronSmeltery"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -172,13 +202,16 @@ export default function Home() {
               ></path>
             </g>
           </svg>
-          IronSmeltery [Moderation]
+          <div className="flex flex-col">
+            IronSmeltery
+            <span className="text-xs opacity-50">[Moderator]</span>
+          </div>
         </a>
         <a
           href="https://x.com/KittenzExe"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -188,7 +221,10 @@ export default function Home() {
               ></path>
             </g>
           </svg>
-          KittenzExe [Moderation]
+          <div className="flex flex-col">
+            KittenzExe
+            <span className="text-xs opacity-50">[Moderator]</span>
+          </div>
         </a>
 
         <h2 className="mt-6">
@@ -198,7 +234,7 @@ export default function Home() {
           href="https://x.com/withpyro"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
             <g>
@@ -214,7 +250,7 @@ export default function Home() {
           href="https://pyro.host/discord"
           rel="noopener noreferrer"
           target="_blank"
-          className="bg-[#373737] text-white flex items-center justify-center gap-4 w-fit px-4 py-4 min-w-[320px]"
+          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
         >
           <svg viewBox="0 0 16 16" className="h-5 w-5">
             <path
