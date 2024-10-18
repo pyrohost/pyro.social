@@ -37,7 +37,7 @@ export default function Home() {
             </g>
           </svg>
           <div className="flex flex-col">
-            checksum
+            Elizabeth Bell
             <span className="text-xs opacity-50">
               [Chief Executive Officer]
             </span>
@@ -58,7 +58,7 @@ export default function Home() {
             </g>
           </svg>
           <div className="flex flex-col">
-            fero
+            Evan Song
             <span className="text-xs opacity-50">
               [Chief Operating Officer]
             </span>
@@ -79,7 +79,7 @@ export default function Home() {
             </g>
           </svg>
           <div className="flex flex-col">
-            Jess
+            Jess Mapes
             <span className="text-xs opacity-50">
               [Chief Information Officer]
             </span>
@@ -103,7 +103,7 @@ export default function Home() {
             ></path>
           </svg>
           <div className="flex flex-col">
-            fetch
+            François-Xavier Talbot
             <span className="text-xs opacity-50">[Staff Systems Engineer]</span>
           </div>
         </a>
@@ -141,7 +141,7 @@ export default function Home() {
             </g>
           </svg>
           <div className="flex flex-col">
-            Devin
+            Devin Droddy
             <span className="text-xs opacity-50">[Backend Engineer]</span>
           </div>
         </a>
@@ -184,25 +184,6 @@ export default function Home() {
         </a>
         <a
           href="https://x.com/fangmrks"
-          rel="noopener noreferrer"
-          target="_blank"
-          className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
-        >
-          <svg className="w-5 h-5" viewBox="0 0 24 24" aria-hidden="true">
-            <g>
-              <path
-                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-                fill="currentColor"
-              ></path>
-            </g>
-          </svg>
-          <div className="flex flex-col">
-            Lio
-            <span className="text-xs opacity-50">[Frontend Engineer]</span>
-          </div>
-        </a>
-        <a
-          href="https://lio.to/twitter"
           rel="noopener noreferrer"
           target="_blank"
           className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
