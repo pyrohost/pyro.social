@@ -109,7 +109,7 @@ export default function Home() {
           </div>
         </a>
         <a
-          href="https://x.com/pupbrained"
+          href="https://x.com/bytebrained"
           rel="noopener noreferrer"
           target="_blank"
           className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
@@ -204,7 +204,7 @@ export default function Home() {
           </div>
         </a>
         <a
-          href="https://x.com/fangmrks"
+          href="https://lio.to/twitter"
           rel="noopener noreferrer"
           target="_blank"
           className="bg-[#373737] text-white flex items-center gap-4 w-fit px-4 py-4 min-w-[320px]"
