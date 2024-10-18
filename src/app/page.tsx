@@ -229,7 +229,7 @@ export default function Home() {
             he3als
             <span className="text-xs opacity-50">[Frontend Engineer]</span>
           </div>
-        </a>
+        </div>
         <a
           href="https://x.com/YoruVR"
           rel="noopener noreferrer"
